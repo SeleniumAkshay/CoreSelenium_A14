@@ -29,6 +29,12 @@ public class KeyPress {
 		r.keyPress(KeyEvent.VK_SHIFT);
 		r.keyPress(KeyEvent.VK_2);
 		r.keyRelease(KeyEvent.VK_SHIFT);
+		r.keyPress(KeyEvent.VK_CAPS_LOCK);
+		r.keyPress(KeyEvent.VK_A);
+		r.keyPress(KeyEvent.VK_B);
+		r.keyRelease(KeyEvent.VK_CAPS_LOCK);
+		r.keyPress(KeyEvent.VK_CAPS_LOCK);
+		r.keyRelease(KeyEvent.VK_CAPS_LOCK);
 
 		Thread.sleep(3000);
 		driver.quit();
